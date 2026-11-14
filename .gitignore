@@ -1,0 +1,61 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+secrets.*
+credentials.json
+
+# Checkpoints, weights & models (large binaries)
+checkpoints/
+*.pth
+*.pt
+*.onnx
+*.safetensors
+
+# Datasets and archives
+data/
+*.tar.gz
+*.tar
+*.zip
+*.gz
+
+# Experiment outputs & runs
+outputs/
+runs/
+wandb/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
